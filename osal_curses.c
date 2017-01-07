@@ -67,7 +67,7 @@ t_osal_handle* init_osal( void )
   else {
     timeout( p->idle_ticks );
 
-    box( p->win, '*', '*' );
+    box( p->win, 0, 0);// '*', '*');
     touchwin( p->win );
     wbkgd( p->win, COLOR_PAIR(1) );
     wrefresh( p->win );
@@ -157,6 +157,7 @@ void write_splash_text( t_osal_handle* p, const char* text )
   strncpy( buf, text, sizeof(buf) );
   p_buf = strtok( buf, delimiter );
 
+  wclear( p->win );
   while( p_buf != NULL ) {
     wbkgd( p->win, COLOR_PAIR(1) );
     wattron( p->win, COLOR_PAIR(1) );
@@ -170,7 +171,7 @@ void write_splash_text( t_osal_handle* p, const char* text )
 void clear_screen( t_osal_handle* p )
 {
   wclear( p->win );
-  box( p->win, '*', '*' );
+  box( p->win, 0, 0); //'*', '*' );
   touchwin( p->win );
   wbkgd( p->win, COLOR_PAIR(1) );
   wrefresh( p->win );
