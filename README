@@ -3,7 +3,7 @@
 ## Object
 
 This is a small sample application  which targets mainly an ancient machine, the
-[https://en.wikipedia.org/wiki/Sinclair_QL](Sinclair  QL), but  it  can be  also
+[Sinclair  QL](https://en.wikipedia.org/wiki/Sinclair_QL), but  it  can be  also
 compiled for and played on any  Unix terminal with ncurses capability. Since the
 QL was  my first  'professional' computer I  was interested to  find out  how it
 compares to modern hardware and how it  feels to develop and compile software on
@@ -31,7 +31,7 @@ to get that.
 
 I  got  the QL  roughly  two  years after  its  announcement  and got  in  touch
 with  more  serious  programming  languages  like  Forth  and  C.  Actually  the
-[https://en.wikipedia.org/wiki/Lattice_C](Lattice C Compiler) from Metacomco was
+[Lattice C Compiler](https://en.wikipedia.org/wiki/Lattice_C) from Metacomco was
 the first  C Compiler  I used  and learned the  C-Programming language  with it.
 Delivered  on three  microdrive  catriges  it was  incredible  slow  and it  was
 definitely necessary  to buy a disc  drive in order  to actually use it  which I
@@ -52,7 +52,7 @@ this year.
 
 As an  alternative, with C68  there is free  and more ANSI-C  compliant compiler
 available  which was  developed  by Dave  Walker  in 1997.  It  can be  obtained
-from the  [http://www.dilwyn.me.uk](Sinclair QL  website of Dilwyn  Jones) which
+from the  [Sinclair QL  website of Dilwyn  Jones](http://www.dilwyn.me.uk) which
 provides an quite extensive collection of documentation and software for the QL.
 C68 runs exclusively on an QL with  the Toolkit II extension from Tony Tebby and
 an  exteneded  memory  to  at  least  640KB  which  is  the  'official'  maximum
@@ -70,7 +70,7 @@ etc. The  QDOS-GCC version however  is based on GCC  2.95 which is  from today's
 perspective old as the hills. It is said to be impossible to compile it with any
 modern  version of  GCC. I  found out  the easiest  way to  get QDOS-GCC  up and
 running is to build it on a virtual machine running a Linux distribution of that
-age.  I  used  [https://www.debian.org/releases/woody](GNU/Debian-Woody)  pretty
+age.  I  used  [GNU/Debian-Woody](https://www.debian.org/releases/woody)  pretty
 successfully for that.  The provided Makefile allows the  invocation of QDOS-GCC
 with some additional configuration arguments.
 
@@ -103,7 +103,7 @@ the command
 ### Cross Compilation for the Sinclair QL using qdos-gcc
 
 Cross compilation requires to compile the  QDOS-GCC compiler first. Refer to the
-[http://morloch.hd.free.fr/qdos/qdosgcc.html](website of Thierry Godefroy) about
+[website of Thierry Godefroy](http://morloch.hd.free.fr/qdos/qdosgcc.html) about
 howto to do this. As already mentioned  the easiest way seems to install a Linux
 distribution  which already  comes  with the  required GCC  version  2.95 as  in
 example Debian-Woody. The following instructions are based on that approach.
@@ -149,7 +149,7 @@ is invoked by the following command:
 
 Afterwards copy over all  source files to your QL. If you have  an IDE hard disk
 interface like QUBIDE, you can use the
-[http://hardware.speccy.org/temp/qubide4-i.html](Image Editor Utitily) provided
+[Image Editor Utitily](http://hardware.speccy.org/temp/qubide4-i.html) provided
 by habisoft for this.
 
 To compile  snake on the QL  first load the basic  program 'build_snake_bas' and
@@ -188,9 +188,9 @@ January 2017, Otto Linnemann
 Thanks to all the  people who helped to keep the QL  platform alive and provided
 documentation and software for it:
 
-* [http://www.dilwyn.me.uk](Dilwyn Jones for the Sinclair QL Pages)
-* [http://terdina.net/ql/q-emulator.html](Daniele Terdina for Q-emuLator) and the
-* [https://sinclairql.wordpress.com/](Sinclair QL: the Italien Preservation)
-* [http://www.sinclairql.net/repository.html](Urs König for the Sinclair QL Preservation Project)
-* [http://web.archive.org/web/20040606145627/http://homepage.ntlworld.com/itimpi/qdosmenu.htm](Dave Walker for developing C68)
-* [http://morloch.hd.free.fr/qdos/qdosgcc.html](Richard Zidlicky, Jonathan Hudson, Thierry Godefroy and Dave Walker for QDOS-GCC)
+* [Dilwyn Jones for the Sinclair QL Pages](http://www.dilwyn.me.uk)
+* [Daniele Terdina for Q-emuLator](http://terdina.net/ql/q-emulator.html) and the
+* [Sinclair QL: the Italien Preservation](https://sinclairql.wordpress.com)
+* [Urs König for the Sinclair QL Preservation Project](http://www.sinclairql.net/repository.html)
+* [Dave Walker for developing C68](http://web.archive.org/web/20040606145627/http://homepage.ntlworld.com/itimpi/qdosmenu.htm)
+* [Richard Zidlicky, Jonathan Hudson, Thierry Godefroy and Dave Walker for QDOS-GCC](http://morloch.hd.free.fr/qdos/qdosgcc.html)
