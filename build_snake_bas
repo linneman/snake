@@ -1,0 +1,9 @@
+10 REMark Basic Script for Building Snake
+20 REMark on the Sinclair QL with C68
+30 REMark 
+40 REMark set prog_use to the c68 dir.
+50 REMark set data_use snake's source dir
+60 REMark 
+70 PROG_USE win1_c68_
+80 DATA_USE win1_snake_
+90 EX CC;"-v -DQDOS -osnake_exe snake.c osal.c queue.c log.c"
