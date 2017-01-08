@@ -90,6 +90,7 @@ following commands to configure, compile and install snake on your host machine:
 
     autoreconf -i
     ./configure
+    make
     make install
 
 The last command installs the  snake executable binary file under /usr/local/bin

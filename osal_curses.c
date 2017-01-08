@@ -54,7 +54,7 @@ t_osal_handle* init_osal( void )
   else if( getmaxx(stdscr) < 2 + p->width || getmaxy(stdscr) < 2 + p->height )
   {
     printw( "Your screen is not big enough! You need at least %d rows and %d colums,\n",
-            p->height, p->width );
+            p->height + 2, p->width + 2 );
     printw( "but your currently used terminatl has only %d rows and %d columns!\n\n",
             getmaxy(stdscr), getmaxx(stdscr) );
     printw( "Press any key to continue, resize your terminal window and restart the application!\n" );
